@@ -44,7 +44,7 @@ int main() {
     double integral = trapezoidal(a, b, n); // Изчислява интеграла
     double error = estimate_error(a, b, n); // Изчислява оценката на грешката
 
-    // Извежда резултата
+    // Извежда резултата и грешката
     cout << "Integral approx. result: " << integral << endl;
     cout << "Error: " << error << endl;
 
